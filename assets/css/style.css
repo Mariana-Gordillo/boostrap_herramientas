@@ -1,0 +1,50 @@
+.banner__titulo{
+    color: red;
+}
+
+.banner{
+    margin-top: 8%;
+}
+
+.imagen-carrusel{
+    height: 400px;
+    object-fit: cover;
+    object-position: 0 70%;
+}
+
+.titulo_carrusel{
+    font-family: 'Pacifico', cursive;
+}
+
+
+.color_titulo{
+    color: #0f8d1a;
+}
+
+.btn-color-especial{
+    background-color: #0f8d1a;
+    border-color: #0f8d1a;
+}
+
+.borde-color-especial{
+    border-color: #0f8d1a;
+}
+
+.card-imagen-posicion{
+ height: 200px;
+ object-fit: cover;
+}
+
+.card-largura{
+    max-width: 18rem;
+}
+
+
+.nav-alinear{
+    display: flex;
+    justify-content: end;
+}
+
+.imagen_tamano{
+    height: 45px;
+}

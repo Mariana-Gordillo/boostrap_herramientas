@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="titulo_carrusel">Fruta & Fruto</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="./assets/css/style.css" rel="stylesheet" /> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecera">
+      
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
+        <div class="container-fluid ">
+          <a class="navbar-brand " href="#"> <img src="./assets/img/logo.jpg" class="imagen_tamano" alt=""> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nav-alinear" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recetas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Quienes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-contacto" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        
+    </header>
+      <section class="banner">
+
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/img/banner.png" class="d-block w-100 imagen-carrusel" alt="...">
+              <div class="carousel-caption d-none d-md-block h-50">
+                <h1 class="titulo_carrusel display-4">Reaproveche mejor los alimentos</h1>
+                
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/banner2.PNG" class="d-block w-100 imagen-carrusel" alt="...">
+              <div class="carousel-caption d-none d-md-block h-50">
+                <h1 class="titulo_carrusel display-4">Receta para economizar y ganar salud</h1>
+                
+              </div>
+            </div>
+            
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+
+
+        <h2 class="sobre__descripcion text-center titulo_carrusel color_titulo">Recetas para ganar salud</h2>
+        <p class="sobre__descripcion text-center text-secondary">Nuestra recetas te ayudan a aprovechar mejor</p>
+
+      </section>
+
+      <!-- Aula 3 -->
+    <main class="recetas bg-dark-subtle">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="card borde-color-especial col-md-4 p-0 m-4 card-largura"  >
+            <img src="./assets/img/recetas/ensalada-de-frutas.jpg" class="card-img-top" alt="aguacate">
+            <div class="card-body">
+              <h5 class="card-title">Bowl de aguacate</h5>
+              <p class="card-text">Receta refrescante llena de vitaminas para tu desayuno.</p>
+              <a href="#" class="btn btn-primary btn-color-especial">Ver receta</a>
+            </div>
+          </div>
+    
+          <div class="card borde-color-especial col-md-4 p-0 m-4 card-largura"  >
+            <img src="./assets/img/recetas/ensalada-de-kiwi.jpg" class="card-img-top" alt="kiwi">
+            <div class="card-body">
+              <h5 class="card-title">Ensalada de kiwi</h5>
+              <p class="card-text">Receta refrescante llena de vitaminas para tu desayuno.</p>
+              <a href="#" class="btn btn-primary btn-color-especial">Ver receta</a>
+            </div>
+          </div>
+    
+          <div class="card borde-color-especial col-md-4 p-0 m-4 card-largura"  >
+            <img src="./assets/img/recetas/mix-de-vegetales.jpg" class="card-img-top" alt="vegetales">
+            <div class="card-body">
+              <h5 class="card-title">Mix de vegetales</h5>
+              <p class="card-text">Receta refrescante llena de vitaminas para tu desayuno.</p>
+              <a href="#" class="btn btn-primary btn-color-especial">Ver receta</a>
+            </div>
+          </div>
+    
+          <div class="card borde-color-especial col-md-4 p-0 m-4 card-largura"  >
+            <img src="./assets/img/recetas/pimentones-juliana.jpg" class="card-img-top" alt="piment">
+            <div class="card-body">
+              <h5 class="card-title">Pimentones en Juliana</h5>
+              <p class="card-text">Receta refrescante llena de vitaminas para tu desayuno.</p>
+              <a href="#" class="btn btn-primary btn-color-especial">Ver receta</a>
+            </div>
+          </div>
+    
+          <div class="card borde-color-especial col-md-4 p-0 m-4 card-largura"  >
+            <img src="./assets/img/recetas/plato-oriental.jpg" class="card-img-top" alt="plato oriental">
+            <div class="card-body">
+              <h5 class="card-title">Plato oriental</h5>
+              <p class="card-text">Receta refrescante llena de vitaminas para tu desayuno.</p>
+              <a href="#" class="btn btn-primary btn-color-especial">Ver receta</a>
+            </div>
+          </div>
+    
+          <div class="card borde-color-especial col-md-4 p-0 m-4 card-largura"  >
+            <img src="./assets/img/recetas/beterrabas-asadas.jpg" class="card-img-top" alt="remolacah">
+            <div class="card-body">
+              <h5 class="card-title">Remolachas assadas</h5>
+              <p class="card-text">Receta refrescante llena de vitaminas para tu desayuno.</p>
+              <a href="#" class="btn btn-primary btn-color-especial">Ver receta</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      
+    </main>
+      
+  <!-- Modal -->
+  <div class="modal fade" id="modal-contacto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Datos de contacto</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="email" class="form-control" id="nombre" placeholder="Nombre Apellido Paterno Apellido Materno">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-color-especial">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+      <!-- Aula 4 -->
+    <section class="quienes">
+        <h3 class="quienes__titulo">Quienes somos</h3>
+        <p class="quienes__descripcion">Conozca a la comunidad detrás de la iniciativa</p>
+        <div class="personas">
+            <div class="persona">
+                <div class="persona__imagen persona__imagen--roberta"></div>
+                <span class="persona__nombre">Roberta</span>
+                <span class="persona__funcion">Contenido</span>
+            </div>
+            <div class="persona">
+                <div class="persona__imagen persona__imagen--marcela"></div>
+                <span class="persona__nombre">Marcela</span>
+                <span class="persona__funcion">Chef de cocina</span>
+            </div>
+            <div class="persona">
+                <div class="persona__imagen persona__imagen--andreia"></div>
+                <span class="persona__nombre">Andréia</span>
+                <span class="persona__funcion">Pequeña Productora</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aula 5 -->
+    <footer class="rodapie bg-secondary py-3 text-light">
+      <h3 class="rodapie__titulo text-center">fruta & fruto 2022</h2>
+      <p class="rodapie__descripcion text-center">Contacto</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  </body>
+</html>
